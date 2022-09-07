@@ -1,4 +1,4 @@
-//  COPYRIGHT:       PrimeObjects Software Inc. (C) 2018 All Right Reserved
+//  COPYRIGHT:       PrimeObjects Software Inc. (C) 2022 All Right Reserved
 //  COMPANY URL:     http://www.primeobjects.com/
 //  CONTACT:         developer@primeobjects.com
 //
@@ -23,14 +23,7 @@ import React from 'react';
 import {Text, View, TouchableOpacity, StyleProp, ViewStyle} from 'react-native';
 import {COLORS} from 'primeobjects-helper-util';
 import moment, {Moment} from 'moment';
-
-export const cloneDate = (md: Moment): Moment => {
-    return moment(`${md.format('MM')}-${md.format('DD')}-${md.format('YYYY')}`, 'MM-DD-YYYY');
-};
-
-export const sameDate = (md1: Moment, md2: Moment): boolean => {
-    return `${md1.format('MM')}-${md1.format('DD')}-${md1.format('YYYY')}` === `${md2.format('MM')}-${md2.format('DD')}-${md2.format('YYYY')}`;
-};
+import {cloneDate, sameDate} from './util';
 
 export type TIndicatorCode = 'empty' | 'filled' | 'full';
 

@@ -1,4 +1,4 @@
-//  COPYRIGHT:       PrimeObjects Software Inc. (C) 2018 All Right Reserved
+//  COPYRIGHT:       PrimeObjects Software Inc. (C) 2022 All Right Reserved
 //  COMPANY URL:     http://www.primeobjects.com/
 //  CONTACT:         developer@primeobjects.com
 //
@@ -73,7 +73,7 @@ export type TDayPickerProps = {
     endYear?: number;
 };
 
-const DayPicker = (props: TDayPickerProps) => {
+export const DayPicker = (props: TDayPickerProps) => {
     const {dayStyle} = props;
     const showMonthHeader = props.showMonthHeader ? props.showMonthHeader : true;
     const today = moment();

@@ -5771,7 +5771,7 @@ pretty-format@^26.0.0, pretty-format@^26.5.2, pretty-format@^26.6.2:
     ansi-styles "^4.0.0"
     react-is "^17.0.1"
 
-primeobjects-helper-util@^1.0.60:
+primeobjects-helper-util@^1.0.69:
   version "1.0.69"
   resolved "https://registry.npmjs.org/primeobjects-helper-util/-/primeobjects-helper-util-1.0.69.tgz#cb16ffc0f44dd1b2233b2e94d5b2aaf3918cbb21"
   integrity sha512-/lumqRyeZW6RWppUfXZAij7xO0AFQhS5LJNmY9e8ofUYUVgqldtHxmILNTGYgesz5+bg61ZXtyBJw5LHvokRFA==
