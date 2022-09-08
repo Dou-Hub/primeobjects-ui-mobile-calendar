@@ -19,5 +19,8 @@
 //  This base component is a template component that is provided from the platform
 //  All app specific features should be provided in a seperate component that extends this base component
 
-export {TViewChangeAction, TDayPickerProps, DayPicker} from './day-picker';
-export {TIndicatorCode, TWeekViewProps, WeekView} from './week';
+export type {TViewChangeAction, TDayPickerProps} from './day-picker';
+export type {TIndicatorCode, TWeekViewProps} from './week';
+
+export {DayPicker} from './day-picker';
+export {WeekView} from './week';

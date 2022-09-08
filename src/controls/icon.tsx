@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import {StyleProp, ViewStyle} from 'react-native';
 import {SvgXml as SvgImage} from 'react-native-svg';
 
