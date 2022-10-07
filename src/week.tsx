@@ -19,7 +19,7 @@
 //  This base component is a template component that is provided from the platform
 //  All app specific features should be provided in a seperate component that extends this base component
 
-import * as React from 'react';
+import React from 'react';
 import {Text, View, TouchableOpacity, StyleProp, ViewStyle} from 'react-native';
 import {COLORS} from 'primeobjects-helper-util';
 import moment, {Moment} from 'moment';

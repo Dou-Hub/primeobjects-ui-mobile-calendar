@@ -19,8 +19,7 @@
 //  This base component is a template component that is provided from the platform
 //  All app specific features should be provided in a seperate component that extends this base component
 
-import * as React from 'react';
-import {useState, useRef, useEffect} from 'react';
+import React, {useState, useRef, useEffect} from 'react';
 import {Text, View, TouchableOpacity, StyleProp, ViewStyle, FlatList, TextStyle, LayoutChangeEvent, ScrollView} from 'react-native';
 import {COLORS, doNothing} from 'primeobjects-helper-util';
 import Week, {TIndicatorCode} from './week';
