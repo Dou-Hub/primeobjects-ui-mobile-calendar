@@ -19,7 +19,7 @@
         "suppressImplicitAnyIndexErrors": true,
         "allowSyntheticDefaultImports": true,
         "skipLibCheck": true,
-        "isolatedModules": true,
+        "isolatedModules": false,
         "strict": true,
         "resolveJsonModule": true,
         "strictFunctionTypes": true,
