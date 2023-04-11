@@ -21,13 +21,13 @@
 
 import React, {useState, useRef, useEffect} from 'react';
 import {Text, View, TouchableOpacity, StyleProp, ViewStyle, FlatList, TextStyle, LayoutChangeEvent, ScrollView} from 'react-native';
-import {COLORS, doNothing} from 'primeobjects-helper-util';
+import {COLORS} from './colors';
 import Week, {TIndicatorCode} from './week';
 import {cloneDeep, isNil, ceil, map} from 'lodash';
 import moment, {Moment} from 'moment';
 import GestureRecognizer from 'react-native-swipe-gestures';
 import Icon from './controls/icon';
-import {BACK_ICON, DOWN_ICON, FORWARD_ICON} from './util';
+import {BACK_ICON, DOWN_ICON, FORWARD_ICON, doNothing} from './util';
 
 export const weekCount = (year: number, month: number) => {
     var firstOfMonth = new Date(year, month - 1, 1);

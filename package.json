@@ -21,7 +21,6 @@
         "babel-plugin-transform-inline-environment-variables": "^0.4.4",
         "lodash": "^4.17.21",
         "moment": "^2.29.4",
-        "primeobjects-helper-util": "^1.0.69",
         "react": "17.0.2",
         "react-native": "0.69.4",
         "react-native-calendar-events": "^2.2.0",

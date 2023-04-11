@@ -21,7 +21,7 @@
 
 import React from 'react';
 import {Text, View, TouchableOpacity, StyleProp, ViewStyle} from 'react-native';
-import {COLORS} from 'primeobjects-helper-util';
+import {COLORS} from './colors';
 import moment, {Moment} from 'moment';
 import {cloneDate, sameDate} from './util';
 
