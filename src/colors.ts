@@ -97,7 +97,7 @@ export const RED = {
 };
 
 export const ORANGE = {
-    name: 'organge',
+    name: 'orange',
     '50': '#fff7ed',
     '100': '#ffedd5',
     '200': '#fed7aa',
