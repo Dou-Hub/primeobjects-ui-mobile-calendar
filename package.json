@@ -1,7 +1,7 @@
 {
     "name": "primeobjects-ui-mobile-calendar",
     "licence": "PRIVATE",
-    "version": "1.0.27",
+    "version": "1.0.28",
     "main": "build/cjs/index.js",
     "module": "build/esm/index.js",
     "types": "build/esm/index.d.ts",
@@ -25,7 +25,7 @@
         "react-native": "0.68.3",
         "react-native-calendar-events": "^2.2.0",
         "react-native-localization": "^2.3.1",
-        "react-native-svg": "^12.4.4",
+        "react-native-svg": "13.4.0",
         "react-native-swipe-gestures": "^1.0.5"
     },
     "devDependencies": {
